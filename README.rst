@@ -864,7 +864,7 @@ The source distribution contains:
 
 -  ``test``: some unit and integrations tests. In order to run the tests
    some packages have to be installed before. So please install the dev packages:
-   ``pip install '.[dev]'``
+   ``pip install -e '.[dev,httpx]'`` and run with ``python -m unittest discover``
 
 -  ``scripts``: some scripts to run the package against some SPARQL endpoints.
 
